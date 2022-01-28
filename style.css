@@ -1,120 +1,163 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Karla', sans-serif;
-    font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
 }
 body {
-background-color:  var(--lightGray);
+  background-color: var(--lightGray);
 }
 :root {
-    /* Primary */
+  /* Primary */
 
---Cyan: hsl(179, 62%, 43%);
---BrightYellow: hsl(71, 73%, 54%);
+  --Cyan: hsl(179, 62%, 43%);
+  --BrightYellow: hsl(71, 73%, 54%);
 
-/* ### Neutral */
+  /* ### Neutral */
 
---lightGray: hsl(204, 43%, 93%);
---grayishBlue: hsl(218, 22%, 67%);
-
+  --lightGray: hsl(204, 43%, 93%);
+  --grayishBlue: hsl(218, 22%, 67%);
 }
 
 .card {
-    background-color: rgb(255, 255, 255);
-    width: 20rem;
-    height: 45rem;
-    border-radius: 0.5rem;
-    margin: auto;
-    margin-top: 6rem;
+  background-color: rgb(255, 255, 255);
+  width: 20rem;
+  height: 45rem;
+  border-radius: 0.5rem;
+  margin: auto;
+  margin-top: 6rem;
 }
 /* HEADER */
 header {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 .card header h1 {
-    color: var(--Cyan);
-    font-size: 1.2rem;
-    margin-bottom: 1.44rem;
+  color: var(--Cyan);
+  font-size: 1.2rem;
+  margin-bottom: 1.44rem;
 }
 .card header h2 {
-    color: var(--BrightYellow);
-    margin-bottom: 1.3rem;
+  color: var(--BrightYellow);
+  margin-bottom: 1.3rem;
 }
 .card header p {
-color: var(--grayishBlue);
-margin-bottom: 0.5rem;
-line-height: 1.6rem;
-font-size: 0.9rem;
+  color: rgba(152, 166, 189,0.7);
+  margin-bottom: 0.5rem;
+  line-height: 1.6rem;
+  font-size: 0.9rem;
 }
 /* MAIN */
 main {
-    background-color: var(--Cyan);
-    padding: 1.5rem;
-    color: white;
-    font-size: 1.5rem;
+  background-color: var(--Cyan);
+  padding: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
 }
 main h1 {
-    font-size: 1.1rem;
-    margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
 }
 
 main h2 {
-    display: flex;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 main span {
-    align-self: center;
-    font-weight: 400;
-    font-size: 1rem;
-    color: rgba(255, 255, 255,0.4);  
-    margin-left: 0.8rem;
+  align-self: center;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin-left: 0.8rem;
 }
 main p {
-    color: rgba(255, 255, 255,0.9);  
-    margin-bottom: 1.85rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.85rem;
 }
 main button {
-    background-color: var(--BrightYellow);
-    border: 0;
-    border-radius: 0.25rem;
-    padding: 0.9rem;
-    width: 100%;
-    color: rgb(252, 252, 197);
-    font-weight: 700;
-    box-shadow: 0 8px 20px -1px rgba(0, 0, 0,0.2);
-    padding-bottom: 1.1rem;
-
+  background-color: var(--BrightYellow);
+  border: 0;
+  border-radius: 0.25rem;
+  padding: 0.9rem;
+  width: 100%;
+  color: rgb(252, 252, 197);
+  font-weight: 700;
+  box-shadow: 0 8px 20px -1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 1.1rem;
+}
+main button:hover {
+    background-color: rgba(192, 223, 52, 0.8);
+    cursor: pointer;
 }
 
 /* SECTION */
 section {
-    padding: 1.5rem;
-    padding-bottom: 1rem;
-    background-color: rgba(42, 178, 175,0.8);
-    border-bottom-left-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
+  padding: 1.5rem;
+  padding-bottom: 1rem;
+  background-color: rgba(42, 178, 175, 0.8);
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 section h1 {
-    color: white;
-    font-size: 1.1rem;
-    margin-bottom: 1.2rem;
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
 }
 section p {
-    color: rgba(255, 255, 255,0.6);  
-    font-weight: 400;
-    font-size: 0.9rem;
-    text-align: left;
-    margin-right: 4rem;
-    line-height: 1.3rem;
-    padding-bottom: 0.25rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-align: left;
+  margin-right: 4rem;
+  line-height: 1.3rem;
+  padding-bottom: 0.25rem;
 }
 /* FOOTER */
 
 footer .attribution {
-margin-top: 1rem;
-color: var(--grayishBlue)
+  margin-top: 1rem;
+  color: var(--grayishBlue);
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    width: 40rem;
+    height: 27.5rem;
+  }
+  .flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 11rem;
+  }
+  main {
+    padding: 2.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  footer .attribution {
+    margin-top: 2.8rem;
+  }
+  header {
+      padding: 2.5rem;
+  }
+  .card header h1 {
+    font-size: 1.5rem;
+  }
+  .card header h2 {
+  margin-bottom: 0.5rem;
+  }
+  .card header p {
+      margin-bottom: 0;
+      
+  }
+  section {
+    padding: 2.5rem;
+    padding-bottom: 1rem;
+    background-color: rgba(42, 178, 175, 0.8);
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
 }
